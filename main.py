@@ -39,7 +39,7 @@ def calculator():
       num1 = answer
     else:
       should_continue = False
-      clear()
+      print("\n"*50)
       calculator()
 
 calculator()
